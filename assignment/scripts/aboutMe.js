@@ -72,7 +72,7 @@ if (pets > friendsPets){
 }else if (pets < friendsPets){
     mostPets = friendsPets;
    console.log('friendsPets is greater than pets with total', mostPets);
-}else if (pets = friendsPets){
+}else if (pets === friendsPets){
     mostPets = friendsPets && pets;
    console.log('friendsPets has the same total pets with total', mostPets);
 }
